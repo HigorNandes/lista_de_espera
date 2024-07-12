@@ -5,13 +5,13 @@ while (programa === "aberto"){
     let opcoes = window.prompt("1) Adicionar nome \n 2) Exibir lista \n 3) Proximo nome \n 4) Fechar programa");
 
     if (opcoes == 1){
-        let acresentar = "s";
-        while (acresentar == "s"){
+        let acrescentar = "s";
+        while (acrescentar == "s"){
             let pessoa = {};
             pessoa.nome = window.prompt("Nome do paciente");
             lista.push(pessoa);
-            acresentar = window.prompt("Deseja acresentar mais um nome? (s/n)");
-            if (acresentar == "n"){
+            acrescentar = window.prompt("Deseja acrescentar mais um nome? (s/n)");
+            if (acrescentar == "n"){
                 break;
             }
         }
